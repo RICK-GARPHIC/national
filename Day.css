@@ -1,0 +1,324 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+  *{
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+  }
+
+
+  header{
+    width: 100%;
+    height: 100hv;
+    background-color: rgb(43, 43, 43);
+    padding: 13px 200px;
+    box-shadow: 0 6px 0 rgb(20, 20, 20);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+  }
+
+  .logo{
+    font-size: 2em;
+    font-weight: 800;
+    color: #fff;
+    position: relative;
+  }
+  .logo::after{
+    content: '';
+    width: 0%;
+    position: absolute;
+    background: rgb(0, 161, 0);
+    border-radius: 20px;
+    height: 3px;
+    bottom: -4px;
+    left: 0;
+    transition: all 0.5s;
+    box-shadow: 0 2px 0 rgb(0, 97, 0);
+  }
+
+  .logo:hover::after{
+    width: 100%;
+  }
+
+
+  .day{
+    color: rgb(0, 161, 0);
+  }
+
+
+  .navigation a{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #fff;
+    transition: all 0.3s;
+    margin: 0 20px;
+  }
+  .navigation span{
+    color: rgb(0, 190, 143);;
+    transition: all 0.3s;
+  }
+
+  .navigation:hover a{
+    color:  rgb(0, 161, 0);
+  }
+
+  .navigation:hover span{
+    color:  rgb(255, 255, 255);
+  }
+
+
+  section{
+    padding: 100px 200px;
+  }
+
+
+  .main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(img/[]d.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  } 
+
+  .code h1{
+    color: #fff;
+    font-size: 70px;
+    cursor: pointer;
+    transition: all  0.3s;
+    margin-bottom: 20px;
+  }
+
+  
+  .code:hover h1{
+    color: rgb(0, 190, 143);
+  }
+
+
+  .code h2{
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all  0.3s;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+
+  .btn {
+    background-color: rgb(0, 107, 80);
+    border-radius: 20px;
+    color: #fff;
+    padding: 10px 30px;
+    margin-right: 10px;
+    transition: all 0.3s;
+  }
+
+  .btn:hover{
+ padding: 10px 50px;
+ box-shadow: 0 10px 0 rgb(1, 63, 47);
+  }
+
+ .e{
+    opacity: 0.4;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    height: 3px;
+ }
+ 
+.f{
+  background-color: rgb(31, 31, 31);
+  border: none;
+  height: 30px;
+}
+
+
+ 
+ .Explain{
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  background: url(img/three.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+} 
+
+.codde h1{
+  color: rgb(0, 190, 143);
+  font-size: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all  0.3s;
+  position: relative;
+ 
+}
+
+.codde h2{
+  color: rgb(0, 190, 143);
+  font-size: 20px;
+  cursor: pointer;
+  transition: all  0.3s;
+  margin-top: 30px;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+.card{
+  background-color: #fff;
+  padding: 50px 150px;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.card:hover{
+  transform: scale(1.1);
+  box-shadow: 0 15px 0 rgb(119, 119, 119);
+  
+  }
+   
+
+.icon{
+  font-size: 150px;
+  color: rgb(0, 173, 130);
+}
+.codde a{
+  color: rgb(0, 190, 143);
+  font-size: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all  0.3s;
+  position: relative;
+ 
+}
+
+.codde h2{
+  color: rgb(0, 190, 143);
+  font-size: 20px;
+  cursor: pointer;
+  transition: all  0.3s;
+  margin-top: 30px;
+}
+
+
+.Developer{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(img/dev.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.Developer h1{
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.Developer h1:hover{
+  background-color: #fff;
+  padding: 10px 30px;
+  border-radius: 20px;
+  color: rgb(0, 112, 84);
+  box-shadow: 0 7px 0 rgb(82, 82, 82);
+}
+
+.Developer h2{
+  color: rgb(0, 112, 84);
+  font-size: 30px;
+  margin-top: 20px;
+  
+}
+
+
+@media (max-width: 1023px){
+  header{
+     padding: 12px 20px;
+  
+  }
+  .navigation a{
+  padding-left: 10px;
+  font-size: 1.2em;
+  }
+  
+  title{
+    font-size: 1.8;
+  }
+  
+  section{
+    padding: 80px 20px;
+  }
+  
+  .main h2{
+    font-size: 1em;
+  }
+  
+  .main h3{
+    font-size: 1.6em;
+  }
+  
+  .content  {
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  }
+  
+  
+  @media (max-width: 641px){
+    body{
+      font-size: 12px;
+    }
+  
+    .main h2{
+      font-size: 0.8em;
+    }
+  
+    .main h3{
+      font-size: 1.4em;
+    }
+  }
+  
+  
+  @media (max-width: 300px){
+  body{
+    font-size: 10px;
+  }
+  }
+
+
+
